@@ -74,11 +74,7 @@ r = requests.get(
     }
 )
 output = '''
-
-==========================
     Authentication test
-============================
-
 request done at "/permissions"
 | username="alice"
 | password="wonderland"
