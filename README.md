@@ -73,9 +73,9 @@ r = requests.get(
         'password': 'wonderland'
     }
 )
-
 output = '''
-============================
+
+==========================
     Authentication test
 ============================
 
@@ -87,7 +87,6 @@ Expected result = 200;
 actual restult = {status_code}
 
 ==>  {test_status}
-
 '''
 
 
